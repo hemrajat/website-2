@@ -23,7 +23,7 @@ body {
   border-radius: 10px;
   background-color: #968C83;
   display: inline-block;
-  margin: 30px auto 100px auto;
+  margin: 30px auto 30px auto;
 }
 .skill-item{
   background-color: #8675A9;
@@ -34,7 +34,7 @@ body {
 }
 .about_box{
   background-color: #D6D2C4;
-  margin: 30px auto 100px auto;
+  margin: 30px auto 30px auto;
   width: 95%;
   border-radius: 10px;
 }
