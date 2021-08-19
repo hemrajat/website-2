@@ -141,7 +141,7 @@ body {
 .contact-me{
   background-color: black;
   width: 95%;
-  margin: auto auto 20px auto;
+  margin: 30px auto 30px auto;
   border-radius: 10px;
 }
 .contact_message{
@@ -260,9 +260,18 @@ body{
   .heading2{
     font-size: 2rem;
   }
-  .project{    
+  .project{
   margin-bottom: 5px;
   margin-top: 5px;
   padding-bottom: 0px;
+  }
+  .about_box{
+    margin-bottom: 30px;
+  }
+  .skill-container{
+    margin-bottom: 30px;
+  }
+  .project-container{
+    margin-bottom: 30px;
   }
 }
