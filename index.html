@@ -13,11 +13,27 @@
 </head>
 
 <body>
-  <div class="top_container">
-    <h1>Hemraj Jat</h1>
-    <h2 class="programmer">&quotArise, awake, stop not till goal is achieved&quot</h2>
+  <div class="navbar">
+    <nav>
+      <ul>
+        <button>☰</button>
+        <li>
+          <a class="navbarlink" href="#aboutMe"> About Me </a>
+        </li>
+        <li>
+          <a class="navbarlink" href="#skillsID"> Skills </a>
+        </li>
+        <li>
+          <a class="navbarlink" href="#projectsID"> Projects </a>
+        </li>
+        <li>
+          <a class="navbarlink" href="#contactsID"> Contacts </a>
+        </li>
+      </ul>
+    </nav>
   </div>
-  <div class="about_box">
+
+  <div id="aboutMe" class="about_box">
     <div class="profile_picture_class">
       <img class="profile_img" src="images/profile.png" alt="Profile picture">
     </div>
@@ -26,7 +42,7 @@
       <p class="intro">I'm a programmer and learner. Graduated from IIT Guwahati. I love solving problems.</p>
     </div>
   </div>
-  <div class="skill-container">
+  <div id="skillsID"class="skill-container">
     <h2 class="heading2">My Skills</h2>
     <div class="skill-item">
       <h2>C++</h2>
@@ -74,7 +90,7 @@
     <br>
   </div>
   <!-- project-container -->
-  <div class="project-container">
+  <div id="projectsID" class="project-container">
     <h2>Projects</h2>
     <div class="project-item">
       <div class="project">
@@ -107,21 +123,21 @@
     <div class="project-item">
       <div class="project">
         <h2>Developed entertaining games</h2>
-        <a class="btn projectlinkbtn" href="projects/dicee/dicee.html"     target="_blank" >Roll dice</a>
-        <a class="btn projectlinkbtn" href="projects/drumKit/index.html"   target="_blank" >Drum kit</a>
-        <a class="btn projectlinkbtn" href="projects/simonGame/index.html" target="_blank" >Play simon</a>
+        <a class="btn projectlinkbtn" href="projects/dicee/dicee.html" target="_blank">Roll dice</a>
+        <a class="btn projectlinkbtn" href="projects/drumKit/index.html" target="_blank">Drum kit</a>
+        <a class="btn projectlinkbtn" href="projects/simonGame/index.html" target="_blank">Play simon</a>
       </div>
     </div>
   </div>
 
-  <div class="contact-me">
+  <div id="contactsID" class="contact-me">
     <div class="cbox">
       <h2>Get In Touch</h2>
       <h3>Love coding? </h3>
       <p class="contact_message">If you love coding as much as i do? Let's talk about their applications.</p>
       <a class="btn projectlinkbtn" href="mailto:contacthemrajjat@gmail.com">CONTACT ME</a>
     </div>
-    </div>
+  </div>
   <div class="bottom_container">
 
     <em><a class="footer-link" href="https://www.linkedin.com/in/hemraj-choudhary-60078414a/" target="_blank"> <img class="linkedin_image" src="images/linkedin.png" alt=""></a></em>
@@ -132,6 +148,8 @@
 
     <p class="copy-right">© 2021 Hemraj Choudhary.</p>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="scripts/javascript.js" charset="utf-8"></script>
 </body>
 
 </html>
