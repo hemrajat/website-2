@@ -233,7 +233,7 @@ body{
 @media all and (max-width: 990px){
   .skill-item{
     width: 37.5%;
-    margin: 30px 5% 30px 5%;
+    margin: 10px 5% 10px 5%;
   }
   h1{
     font-size: 3rem;
@@ -256,5 +256,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     margin:30px auto 30px auto;
+  }
+  .heading2{
+    font-size: 2rem;
+  }
+  .project{    
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-bottom: 0px;
   }
 }
