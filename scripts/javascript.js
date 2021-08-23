@@ -1,16 +1,8 @@
 $(document).ready(function(){
-    let toggled = false;
     $("button").click(function(){
       $("button").text("☰");
-
       $("li").toggle("slow")
-      toggled=!toggled;
     });
-    if($(window).width()>900 && toggled === true){
-      $("li").toggle("slow");
-      toggled=!toggled;
-    }
-
     $(".navbarlink").on('click', function(event) {
 
       // Make sure this.hash has a value before overriding default behavior
