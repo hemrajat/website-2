@@ -60,15 +60,17 @@ button{
 
 .skill-container{
   width: 95%;
+  height: 75vh;
   border-radius: 10px;
   background-color: #968C83;
   display: inline-block;
   margin: 30px auto 30px auto;
+  overflow: auto;
 }
 .skill-item{
   background-color: #8675A9;
   width: 23%;
-  margin: 30px 5% 30px 5%;
+  margin: 15px 5% 15px 5%;
   display: inline-block;
   border-radius: 10px;
 }
@@ -200,7 +202,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #F6F6F6;
 }
 h3{
